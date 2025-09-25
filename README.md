@@ -7,7 +7,7 @@
     </h1>
     <h2> Hello world! </h2>
   </head>
-  <img src= "WebBanner.png" alt ="banner" width = "900" height = "300" />
+  <img src= "Webbanner2023.png" alt ="banner" width = "900" height = "300" />
 
 
 
