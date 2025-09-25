@@ -1,11 +1,14 @@
 # FY6927479
 <!DOCTYPE html>
 <html>
-  <h1>
-    What should I even do for this wesbite
-  </h1>
-  <h2> Hello world! </h2>
-  
+  <head>
+    <h1>
+      What should I even do for this wesbite
+    </h1>
+    <h2> Hello world! </h2>
+  </head>
+  <img src= "WebBanner.png" alt ="banner" width = "900" height = "300"
+
 
 
 
