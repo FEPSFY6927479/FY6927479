@@ -6,7 +6,12 @@
     <h2> <b>ENG0018 Computer laboratory 2025/26 </b> </h2>
     <h3> Student URN: 6927479 </h3>
   </head>
-  <h1>The True Physics Behind Weightlifting and Bodybuilding</h1> 
+  
+  
+  
+  
+  <hr>
+  <h1><b>The True Physics Behind Weightlifting and Bodybuilding</b></h1> 
 
 
 
