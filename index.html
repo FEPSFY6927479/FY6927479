@@ -1,37 +1,438 @@
 # FY6927479
 <!DOCTYPE html>
 <html>
-  <head>
-    <img src= "WebBanner2023.png" alt ="banner" width = "900" height = "300" />
-    <h2> <b>ENG0018 Computer laboratory 2025/26 </b> </h2>
-    <h3> Student URN: 6927479 </h3>
-  </head>
-  
-  
-  
-  
-  <hr>
-  <h1><b>The Physics Behind Weightlifting and Bodybuilding</b></h1> 
+<head>
+    <meta charset="UTF-8">
+    <title>The Physics Behind Weightlifting and Bodybuilding</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- External CSS framework used in ENG0018 labs -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+    <!-- Simple internal CSS similar to lab examples -->
+    <style>
+        body {
+            background-color: #FFFFFF;
+            margin-left: 50px;
+            font-family: calibri, Arial, sans-serif;
+        }
 
+        /* Indented paragraphs/blocks (ENG0018 style: class ex1) */
+        p.ex1,
+        pre.ex1 {
+            margin-left: 250px;
+            white-space: pre-wrap; /* keeps line breaks but allows wrapping */
+        }
 
+        /* Basic table styling */
+        table {
+            border-collapse: collapse;
+            margin-left: 250px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 80%;
+        }
 
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
 
+        th {
+            font-weight: bold;
+        }
 
+        /* Table of contents heading */
+        .toc-title {
+            text-align: left;
+            font-weight: bold;
+        }
 
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
 
+<body>
 
+    <!-- =================== BANNER =================== -->
+    <!-- Make sure WebBanner.png is in your repo (from H1 lab) -->
+    <!-- If the file name is different, change src accordingly -->
+    <img src="WebBanner.png" alt="University of Surrey Banner" style="width:100%;">
 
+    <!-- =================== MAIN HEADINGS =================== -->
+    <h1><b>ENG0018 Computer Laboratory 2025/26</b></h1>
+    <h2>Student URN: 6927479</h2>
 
+    <hr>
 
+    <!-- =================== ARTICLE TITLE =================== -->
+    <h2 style="font-family:calibri;"><b>Conference paper: The Physics Behind Weightlifting and Bodybuilding</b></h2>
 
+    <hr>
 
+    <!-- =================== TABLE OF CONTENTS =================== -->
+    <p class="ex1">
+    <table>
+        <tr>
+            <th class="toc-title">
+                <h3>Table of Contents</h3>
+            </th>
+        </tr>
+        <tr>
+            <td><a href="#Abstract">Abstract</a></td>
+        </tr>
+        <tr>
+            <td><a href="#Introduction">Introduction</a></td>
+        </tr>
+        <tr>
+            <td><a href="#CICO">Calories In / Calories Out Debate</a></td>
+        </tr>
+        <tr>
+            <td><a href="#ForcesMoments">Forces and Moments in Weightlifting</a></td>
+        </tr>
+        <tr>
+            <td><a href="#BenchPressPhysics">Bench Press Physics: Limb Length</a></td>
+        </tr>
+        <tr>
+            <td><a href="#Explosivity">Training Explosivity (F = ma)</a></td>
+        </tr>
+        <tr>
+            <td><a href="#Pulleys">Pulley Systems in Gym Equipment</a></td>
+        </tr>
+        <tr>
+            <td><a href="#Analysis">Analysis and Discussion</a></td>
+        </tr>
+        <tr>
+            <td><a href="#PeerFeedback">Peer Feedback Reflection</a></td>
+        </tr>
+        <tr>
+            <td><a href="#Conclusion">Conclusion</a></td>
+        </tr>
+        <tr>
+            <td><a href="#References">References</a></td>
+        </tr>
+    </table>
+    </p>
 
+    <!-- =================== ABSTRACT =================== -->
+    <hr>
+    <h3 id="Abstract">Abstract</h3>
+    <pre class="ex1" id="Abstract_InText">
+[WRITE YOUR ABSTRACT HERE]
+    </pre>
 
+    <!-- =================== INTRODUCTION =================== -->
+    <hr>
+    <h3 id="Introduction">Introduction</h3>
+    <pre class="ex1" id="Introduction_InText">
+[Write your introduction here. Give background on bodybuilding/weightlifting,
+why physics is relevant, and outline the main sections: CICO, forces/moments,
+limb length, explosivity (F = ma), pulley systems, and overall aims.]
 
+<!-- Optional: later you can add a simple overview diagram here. -->
+    </pre>
 
+    <!-- =================== CICO SECTION =================== -->
+    <hr>
+    <h3 id="CICO">Calories In / Calories Out Debate</h3>
+    <pre class="ex1">
+[Explain the CICO concept and why it is a useful model but only an approximation.
+Discuss biological differences (BMR, TEF, digestive efficiency, training status),
+and make the point that two people eating the same calories can have different
+"effective" energy use.]
 
+[You can reference TNF videos/articles here, and any scientific sources.]
+    </pre>
 
+    <!-- CICO COMPARISON TABLE -->
+    <table>
+        <tr>
+            <th>Individual</th>
+            <th>Daily Calorie Intake (kcal)</th>
+            <th>Estimated BMR (kcal/day)</th>
+            <th>Thermic Effect of Food (%)</th>
+            <th>Effective Calories Absorbed (kcal)</th>
+            <th>Notes</th>
+        </tr>
 
+        <tr>
+            <td>Person A (Highly Trained)</td>
+            <td>2,700</td>
+            <td>1,850</td>
+            <td>12%</td>
+            <td>&asymp; 2,375</td>
+            <td>High muscle mass → higher BMR, better nutrient partitioning.</td>
+        </tr>
 
+        <tr>
+            <td>Person B (Sedentary)</td>
+            <td>2,700</td>
+            <td>1,550</td>
+            <td>8%</td>
+            <td>&asymp; 2,485</td>
+            <td>Lower muscle mass → lower BMR, slightly less TEF.</td>
+        </tr>
+
+        <tr>
+            <td>Person C (Digestive Inefficiency)</td>
+            <td>2,700</td>
+            <td>1,600</td>
+            <td>10%</td>
+            <td>&asymp; 2,300</td>
+            <td>Absorption losses → fewer usable calories from the same intake.</td>
+        </tr>
+    </table>
+
+    <!-- =================== FORCES & MOMENTS =================== -->
+    <hr>
+    <h3 id="ForcesMoments">Forces and Moments in Weightlifting</h3>
+    <pre class="ex1">
+[Introduce the basic physics:
+- Force (F) and mass (m)
+- Work done: W = F × d
+- Moments / torque: M = F × perpendicular distance (moment arm)
+Explain why joints act as pivots and muscles generate internal moments to
+balance the external moment from the weight.]
+
+<!-- DIAGRAM REMINDER:
+    Add a diagram of a simple lever:
+    - Show pivot (joint)
+    - Applied force
+    - Distance from pivot (moment arm)
+    - Direction of rotation (moment arrow)
+-->
+    </pre>
+
+    <!-- =================== BENCH PRESS PHYSICS (LIMB LENGTH) =================== -->
+    <hr>
+    <h3 id="BenchPressPhysics">Bench Press Physics: Limb Length</h3>
+    <pre class="ex1">
+[Explain how longer arms increase the moment at the shoulder and/or elbow:
+- Same weight but longer horizontal distance → larger moment.
+- Longer arms also mean a greater vertical distance the bar has to travel,
+  so more work is done: W = F × d.
+Make the link between limb length and perceived difficulty of the lift.]
+
+<!-- DIAGRAM REMINDER:
+    Add a diagram comparing:
+    - Short-arm lifter vs long-arm lifter
+    - Different bar path distances
+    - Different moment arms for the same weight
+-->
+    </pre>
+
+    <!-- =================== EXPLOSIVITY (F = ma) =================== -->
+    <hr>
+    <h3 id="Explosivity">Training Explosivity (F = ma)</h3>
+    <pre class="ex1">
+[Connect strength training to Newton's second law: F = m a.
+If training increases the maximum force muscles can produce,
+then for a given mass (barbell or body) the acceleration can increase.
+Use a jumping or squat example:
+- Larger force generated in a short time → greater change in velocity,
+  higher jump, faster bar speed, more "explosive" movement.]
+
+<!-- DIAGRAM REMINDER:
+    Option 1: Graph of force vs acceleration.
+    Option 2: Arrows showing increased force leading to higher acceleration
+              and greater jump height or bar speed.
+-->
+    </pre>
+
+    <!-- =================== PULLEY SYSTEMS =================== -->
+    <hr>
+    <h3 id="Pulleys">Pulley Systems in Gym Equipment</h3>
+    <pre class="ex1">
+[Describe how pulleys change the effective load:
+- Mechanical advantage (more rope segments sharing the load).
+- How some machines feel "lighter" or "heavier" for the same weight stack.
+- Mention friction losses in pulleys and cables, which reduce efficiency.]
+
+<!-- DIAGRAM REMINDER:
+    Add a pulley diagram showing:
+    - A simple fixed pulley (no mechanical advantage, just direction change).
+    - A two-pulley system where the user effectively lifts only a fraction
+      of the load.
+    - Indicate input force vs output force.
+-->
+    </pre>
+
+    <!-- =================== ANALYSIS & DISCUSSION (USED FOR WORD COUNT) =================== -->
+    <hr>
+    <h3 id="Analysis">Analysis and Discussion</h3>
+    <pre class="ex1" id="Analysis_InText">
+[Bring ideas together:
+- How CICO provides a useful framework but must be personalised.
+- How biomechanics (moments, limb length) make lifts harder or easier.
+- Why explosive training relates directly to F = ma.
+- How pulley systems change the relationship between external load and
+  internal muscle force.
+You can summarise key comparisons or link back to real lifter experiences.]
+
+[This section, together with the Introduction, is used in your automatic
+word count for the coursework.]
+    </pre>
+
+    <!-- =================== PEER FEEDBACK REFLECTION =================== -->
+    <hr>
+    <h3 id="PeerFeedback">Peer Feedback Reflection</h3>
+    <pre class="ex1">
+[Reflect on the peer feedback you received:
+- Need more visual demonstration of physics → you are adding diagrams.
+- Need clearer explanation of physics concepts before applying them.
+- Need to explain gym jargon (ROM, PR, hypertrophy, etc.) for non-gym
+  readers.
+Explain how you have addressed or will address these points.]
+    </pre>
+
+    <!-- =================== CONCLUSION =================== -->
+    <hr>
+    <h3 id="Conclusion">Conclusion</h3>
+    <pre class="ex1" id="Conclusion_InText">
+[Summarise the main physics insights:
+- Energy balance (CICO) is constrained by conservation of energy, but
+  biological differences mean practical outcomes vary between people.
+- Forces, moments, and limb length explain why some lifters find certain
+  movements harder.
+- F = m a and explosive training show how physics underpins athletic
+  performance.
+- Pulley systems demonstrate mechanical advantage and real-world
+  applications of simple machines in the gym.
+You can also briefly mention limitations and possible extensions.]
+    </pre>
+
+    <!-- =================== REFERENCES =================== -->
+    <hr>
+    <h3 id="References">References</h3>
+    <pre class="ex1">
+[Add your properly formatted references here. You can use:
+- Articles/videos on CICO and metabolism
+- Sources on biomechanics of lifting
+- Any academic or reputable sources you use in the text]
+
+Example of a hyperlink format:
+<a href="https://www.example.com/article">Author (Year) Title of article.</a>
+    </pre>
+
+    <!-- =================== WORD COUNT DISPLAY =================== -->
+    <p id="totalWordCount"></p>
+    <hr>
+
+    <!-- =================== TIMESTAMP + WORD COUNT + SMOOTH SCROLL SCRIPTS =================== -->
+
+    <!-- Last commit time display + verify button are above; now the JS: -->
+    <div id="last-updated">Loading last update time...</div>
+    <button onclick="verifyLastUpdatedTime()" style="display: block; margin: 10px auto; padding: 8px 16px;">
+        Verify Last Modified Time
+    </button>
+
+    <!-- ///////////// Timestamp script ///////////// -->
+    <script>
+        // Get last modified time from GitHub repository
+        async function getLastUpdatedTime() {
+            // These are based on your actual repo details
+            const username = 'FEPSFY6927479';
+            const repo = 'FY6927479';
+
+            const url = `https://api.github.com/repos/${username}/${repo}/commits`;
+            try {
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/vnd.github.v3+json',
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Error fetching data: ${response.status} - ${response.statusText}`);
+                }
+
+                const commits = await response.json();
+                if (commits && commits.length > 0) {
+                    const lastCommitDate = new Date(commits[0].commit.committer.date);
+                    document.getElementById('last-updated').innerText =
+                        `Last Modified Time: ${lastCommitDate.toLocaleString()}`;
+                } else {
+                    document.getElementById('last-updated').innerText =
+                        'No commits found in the repository.';
+                }
+            } catch (error) {
+                console.error('Error fetching the last updated time:', error);
+                document.getElementById('last-updated').innerText =
+                    'Error fetching update time. Please check the repository details.';
+            }
+        }
+
+        // Re-check from GitHub when button is pressed
+        async function verifyLastUpdatedTime() {
+            document.getElementById('last-updated').innerText = 'Verifying...';
+            await getLastUpdatedTime();
+            alert("Last modified time has been successfully verified from GitHub API.");
+        }
+    </script>
+
+    <!-- ///////////// Word count script ///////////// -->
+    <script>
+        // Count words in a section with a given ID
+        function displayWordCount(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (!element) return 0;
+
+            const text = element.textContent || "";
+            const wordArray = text.trim().split(/\s+/).filter(word => word.length > 0);
+            const wordCount = wordArray.length;
+            return wordCount;
+        }
+
+        // Calculate and display total word count (Introduction + Analysis)
+        function displayTotalWordCount() {
+            const IntroductionCount = displayWordCount("Introduction_InText");
+            const AnalysisCount = displayWordCount("Analysis_InText");
+
+            const totalWordCount = IntroductionCount + AnalysisCount;
+            const output = document.getElementById("totalWordCount");
+            if (output) {
+                output.innerText = `Total word count (Introduction + Analysis): ${totalWordCount}`;
+            }
+        }
+    </script>
+
+    <!-- ///////////// Smooth scrolling for anchor links ///////////// -->
+    <script>
+        // Smooth scroll for all internal links like href="#SectionID"
+        document.addEventListener("DOMContentLoaded", function () {
+            const links = document.querySelectorAll("a[href^='#']");
+
+            links.forEach(link => {
+                link.addEventListener("click", function (e) {
+                    const targetSelector = this.getAttribute("href");
+                    const target = document.querySelector(targetSelector);
+
+                    if (target) {
+                        e.preventDefault();
+                        target.scrollIntoView({
+                            behavior: "smooth"
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- ///////////// Combined onload handler ///////////// -->
+    <script>
+        // When the page has fully loaded:
+        // 1) fetch the last updated time from GitHub
+        // 2) calculate and show the word count
+        window.addEventListener("load", function () {
+            getLastUpdatedTime();
+            displayTotalWordCount();
+        });
+    </script>
+
+</body>
 </html>
