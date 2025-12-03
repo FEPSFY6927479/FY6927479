@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>The Physics Behind Weightlifting and Bodybuilding</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- External CSS framework used in ENG0018 labs -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
@@ -60,7 +61,6 @@
 
     <!-- =================== BANNER =================== -->
     <!-- Make sure WebBanner.png is in your repo (from H1 lab) -->
-    <!-- If the file name is different, change src accordingly -->
     <img src="WebBanner.png" alt="University of Surrey Banner" style="width:100%;">
 
     <!-- =================== MAIN HEADINGS =================== -->
@@ -322,13 +322,13 @@ Example of a hyperlink format:
     <p id="totalWordCount"></p>
     <hr>
 
-    <!-- =================== TIMESTAMP + WORD COUNT + SMOOTH SCROLL SCRIPTS =================== -->
-
-    <!-- Last commit time display + verify button are above; now the JS: -->
+    <!-- =================== TIMESTAMP DISPLAY + BUTTON =================== -->
     <div id="last-updated">Loading last update time...</div>
     <button onclick="verifyLastUpdatedTime()" style="display: block; margin: 10px auto; padding: 8px 16px;">
         Verify Last Modified Time
     </button>
+
+    <!-- =================== JAVASCRIPT SECTION =================== -->
 
     <!-- ///////////// Timestamp script ///////////// -->
     <script>
@@ -384,8 +384,7 @@ Example of a hyperlink format:
 
             const text = element.textContent || "";
             const wordArray = text.trim().split(/\s+/).filter(word => word.length > 0);
-            const wordCount = wordArray.length;
-            return wordCount;
+            return wordArray.length;
         }
 
         // Calculate and display total word count (Introduction + Analysis)
@@ -436,3 +435,4 @@ Example of a hyperlink format:
 
 </body>
 </html>
+
