@@ -91,6 +91,9 @@
             <td><a href="#Abstract">Abstract</a></td>
         </tr>
         <tr>
+            <td><a href="#Introduction">Introduction</a></td>
+        `</tr>
+        <tr>
             <td><a href="#CICO">Calories In / Calories Out Debate</a></td>
         </tr>
         <tr>
@@ -121,7 +124,21 @@
     <h3 id="Abstract">Abstract</h3>
     <pre class="ex1" id="Abstract_InText">
 When exercising, many people assume that lifting weights and eating more automatically lead to muscle growth. While there is some truth to this, physics plays a major role in how efficiently these processes occur. Understanding these physical principles can improve both performance and safety. This article focuses on three key areas: energy balance through the Calories In / Calories Out (CICO) framework, the biomechanics of weightlifting, and how force production influences explosivity. The CICO section explains how individuals with different metabolic rates and thermic effects of food can respond differently to identical calorie targets (Hall et al., 2011; Wang et al., 2010). The biomechanics sections examine how forces and moments influence lifting difficulty, and how limb length changes the mechanical demands of movements such as the bench press (Escamilla, 2001). Finally, the explosivity section links resistance training adaptations to an increased rate of force development, described by fundamental physics principles (Aagaard et al., 2002). Together, these ideas demonstrate how physics underpins both technique and physical progress in weightlifting.
-    </pre>
+   </pre>
+
+        <!--  =================== INTRODUCTION ===================-->
+         
+    <hr>
+    <h3 id="Introduction">Introduction</h3>
+    <pre class="ex1" id="Introduction_InText">
+        [Write a short introduction here explaining the purpose of the paper.
+Example:
+This article explores how physics underpins key aspects of weightlifting and bodybuilding. 
+It introduces the role of energy balance, the biomechanical forces acting during lifting, 
+how body segment lengths influence performance, and how strength training improves the 
+rate of force development. Understanding these principles can improve both technique and 
+training effectiveness.]
+</pre>
 
     <!-- =================== CICO SECTION =================== -->
     <hr>
@@ -343,9 +360,13 @@ Aagaard, P., Simonsen, E.B., Andersen, J.L., Magnusson, P. and Dyhre-Poulsen, P.
 
         // Calculate and display total word count (Analysis only)
         function displayTotalWordCount() {
+            const IntroductionCount = displayWordCount("Introduction_InText");
             const AnalysisCount = displayWordCount("Analysis_InText");
+            const totalWordCount = IntroductionCount + AnalysisCount;
 
-            const totalWordCount = AnalysisCount;
+            document.getElementById("totalWordCount").innerText =
+                `Total word count (Introduction + Analysis): ${totalWordCount}`;
+
             const output = document.getElementById("totalWordCount");
             if (output) {
                 output.innerText = `Total word count (Analysis only): ${totalWordCount}`;
