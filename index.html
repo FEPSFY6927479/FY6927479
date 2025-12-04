@@ -59,13 +59,14 @@
             margin-left: 0px;
             width: 60%;  /* optional: makes ToC neater */
         }
+
     </style>
 </head>
 
 <body>
 
     <!-- =================== BANNER =================== -->
-    <!-- Make sure WebBanner2023.png is in your repo -->
+    <!-- Make sure WebBanner2023.png is in your repo (from H1 lab) -->
     <img src="WebBanner2023.png" alt="University of Surrey Banner" style="width:100%;">
 
     <!-- =================== MAIN HEADINGS =================== -->
@@ -90,9 +91,6 @@
             <td><a href="#Abstract">Abstract</a></td>
         </tr>
         <tr>
-            <td><a href="#Introduction">Introduction</a></td>
-        </tr>
-        <tr>
             <td><a href="#CICO">Calories In / Calories Out Debate</a></td>
         </tr>
         <tr>
@@ -102,7 +100,7 @@
             <td><a href="#BenchPressPhysics">Bench Press Physics: Limb Length</a></td>
         </tr>
         <tr>
-            <td><a href="#Pulleys">Pulley Systems in Gym Equipment</a></td>
+            <td><a href="#Explosivity">Training Explosivity (Rate of Force Development)</a></td>
         </tr>
         <tr>
             <td><a href="#Analysis">Analysis and Discussion</a></td>
@@ -118,29 +116,24 @@
         </tr>
     </table>
 
-    <!-- =================== ABSTRACT (NOT COUNTED) =================== -->
+    <!-- =================== ABSTRACT =================== -->
     <hr>
     <h3 id="Abstract">Abstract</h3>
     <pre class="ex1" id="Abstract_InText">
 When exercising, many people assume that lifting weights and eating more automatically lead to muscle growth. While there is some truth to this, physics plays a major role in how efficiently these processes occur. Understanding these physical principles can improve both performance and safety. This article focuses on three key areas: energy balance through the Calories In / Calories Out (CICO) framework, the biomechanics of weightlifting, and how force production influences explosivity. The CICO section explains how individuals with different metabolic rates and thermic effects of food can respond differently to identical calorie targets (Hall et al., 2011; Wang et al., 2010). The biomechanics sections examine how forces and moments influence lifting difficulty, and how limb length changes the mechanical demands of movements such as the bench press (Escamilla, 2001). Finally, the explosivity section links resistance training adaptations to an increased rate of force development, described by fundamental physics principles (Aagaard et al., 2002). Together, these ideas demonstrate how physics underpins both technique and physical progress in weightlifting.
-
-
-    <!-- =================== INTRODUCTION =================== -->
-    <hr>
-    <h3 id="Introduction">Introduction</h3>
-    <pre class="ex1" id="Introduction_InText">
-[Write your proper introduction here. For now this is a placeholder so the word-count script
-and the table of contents link work correctly.]
     </pre>
 
     <!-- =================== CICO SECTION =================== -->
     <hr>
     <h3 id="CICO">Calories In / Calories Out Debate</h3>
-    <pre class="ex1" id="CICO_InText">
-Calories in calories out is a framework that states calories in (from food sources) will be equal to the calories outputted by an individual in various ways, which can be for their daily activities, metabolic activity (“general energy for body upkeep”), thermic effect of food (“digesting food energy spent”). This principle follows the conservation of energy (energy can’t be created or destroyed), so excess calories not used by the body are stored as extra mass (fat or muscle), showing this principle obeys physics. However, the effective calories consumed by a person can differ between different individuals.
-Demonstrated in the table are 3 individuals intaking the same calories with different BMR and different TEF (thermic effect of food). The trained individual has a higher BMR (which is dependent on the “weight” of a person). Someone who is trained has more muscle → larger mass → larger BMR. In addition to this they experience a larger TEF; this means there are fewer calories remaining for their BMR and any physical activities as compared to someone who is sedentary who would have more available. On the other hand, someone with a digestive inefficiency would also have fewer calories available after TEF meaning they would need extra calories to compensate for this loss. The examples show that people, even though they are following the same calorie goal, might experience different outcomes for their weight gain, loss or maintenance.
-CICO is still very useful because the body has so many factors involved in energy consumption, but it should still be acknowledged as an approximation. This shows when trying to gain or lose weight, if no change occurs, then a change in calorie calculation is required (i.e. increase calories if not increasing weight and decrease if not losing weight). The table supports that there is biological variability across individuals and no flaw in physics, and this is the reason calorie responses vary between individuals.
-*It should be noted that when calculating BMR online it only considers “weight”. This is crucial because overall muscle has a higher metabolic activity than fat (it burns more energy to have it) meaning your BMR could be higher or lower than expected, once again reinforcing that CICO itself is an approximation.
+    <pre class="ex1">
+Calories in calories out is a framework that states calories in (from food sources) will be equal to the calories outputted by an individual in various ways, which can be for their daily activities, metabolic activity (“general energy for body upkeep”), and the thermic effect of food (“digesting food energy spent”). This principle follows the conservation of energy (energy can’t be created or destroyed), so excess calories not used by the body are stored as extra mass (fat or muscle), showing this principle obeys physics (Hall et al., 2011). However, the effective calories consumed by a person can differ between different individuals.
+
+Demonstrated in the table are 3 individuals intaking the same calories with different BMR and different TEF (thermic effect of food). The trained individual has a higher BMR (which is dependent on the “weight” of a person). Someone who is trained has more muscle → larger fat-free mass → larger BMR (Wang et al., 2010). In addition to this they experience a larger TEF, meaning there are fewer calories remaining for their BMR and any physical activities compared to someone who is sedentary, who would have more available. On the other hand, someone with a digestive inefficiency would also have fewer calories available after TEF, meaning they would need extra calories to compensate for this loss. The examples show that people, even though they are following the same calorie goal, might experience different outcomes for their weight gain, loss or maintenance.
+
+CICO is still very useful because the body has so many factors involved in energy consumption, but it should be acknowledged as an approximation. This shows that when trying to gain or lose weight, if no change occurs, then a change in calorie calculation is required (i.e. increase calories if not increasing weight and decrease if not losing weight). The table supports that there is biological variability across individuals and no flaw in physics, and this is the reason calorie responses vary between individuals (Hall et al., 2011; Wang et al., 2010).
+
+*It should be noted that when calculating BMR online it only considers “weight”. This is crucial because overall muscle has a higher metabolic activity than fat (it burns more energy to have it), meaning your BMR could be higher or lower than expected, once again reinforcing that CICO itself is an approximation (Wang et al., 2010).
     </pre>
 
     <!-- CICO COMPARISON TABLE -->
@@ -150,7 +143,7 @@ CICO is still very useful because the body has so many factors involved in energ
             <th>Daily Calorie Intake (kcal)</th>
             <th>Estimated BMR (kcal/day)</th>
             <th>Thermic Effect of Food (%)</th>
-            <th>Effective calories available (kcal)</th>
+            <th>Effective calories avaliable (kcal)</th>
             <th>Notes</th>
         </tr>
 
@@ -178,20 +171,20 @@ CICO is still very useful because the body has so many factors involved in energ
             <td>1,600</td>
             <td>10%</td>
             <td>&asymp; 2,300</td>
-            <td>Absorption losses so even fewer usable calories from the same intake.</td>
+            <td>Absorption losses so even less beyond just 2700−TEF calories → fewer usable calories from the same intake.</td>
         </tr>
     </table>
 
     <!-- =================== FORCES & MOMENTS =================== -->
     <hr>
     <h3 id="ForcesMoments">Forces and Moments in Weightlifting</h3>
-    <pre class="ex1" id="ForcesMoments_InText">
-[Introduce the basic physics:
+    <pre class="ex1">
+[Introduce the basic physics ideas that are used throughout the rest of the paper:
 - Force (F) and mass (m)
-- Work done: W = F × d
+- Work done: W = F × d when the force and motion are in the same direction
 - Moments / torque: M = F × perpendicular distance (moment arm)
-Explain why joints act as pivots and muscles generate internal moments to
-balance the external moment from the weight.]
+
+Explain that joints act as pivots and muscles generate internal moments to balance the external moment from the weight. In many strength exercises the external load acts at some distance away from the joint, so increasing this distance increases the joint moment that the muscles have to resist (Escamilla, 2001). You can then link this to why some positions in a lift feel harder than others and why technique, bar path, and joint angles matter for performance and injury risk (Escamilla, 2001).]
 
 <!-- DIAGRAM REMINDER:
     Add a diagram of a simple lever:
@@ -205,12 +198,13 @@ balance the external moment from the weight.]
     <!-- =================== BENCH PRESS PHYSICS (LIMB LENGTH) =================== -->
     <hr>
     <h3 id="BenchPressPhysics">Bench Press Physics: Limb Length</h3>
-    <pre class="ex1" id="BenchPressPhysics_InText">
+    <pre class="ex1">
 [Explain how longer arms increase the moment at the shoulder and/or elbow:
-- Same weight but longer horizontal distance → larger moment.
-- Longer arms also mean a greater vertical distance the bar has to travel,
-  so more work is done: W = F × d.
-Make the link between limb length and perceived difficulty of the lift.]
+- For the same barbell weight, a lifter with longer arms usually has a larger horizontal distance from the shoulder joint to the line of action of the load.
+- Since the external moment is M = F × d⊥, a larger distance d⊥ means a larger moment that the shoulder muscles must counter (Escamilla, 2001).
+- Longer arms also mean a greater vertical distance for the bar to travel, so more work is done: W = F × d. This helps explain why some lifters feel that bench press is harder despite using the same load as someone with shorter arms.
+
+You can relate this to real lifter experiences, for example why leverages and body segment lengths can affect which lifts an athlete is naturally better at (Escamilla, 2001).]
 
 <!-- DIAGRAM REMINDER:
     Add a diagram comparing:
@@ -220,79 +214,62 @@ Make the link between limb length and perceived difficulty of the lift.]
 -->
     </pre>
 
-    <!-- =================== PULLEY SYSTEMS =================== -->
+    <!-- =================== EXPLOSIVITY (RATE OF FORCE DEVELOPMENT) =================== -->
     <hr>
-    <h3 id="Pulleys">Pulley Systems in Gym Equipment</h3>
-    <pre class="ex1" id="Pulleys_InText">
-[Describe how pulleys change the effective load:
-- Mechanical advantage (more rope segments sharing the load).
-- How some machines feel "lighter" or "heavier" for the same weight stack.
-- Mention friction losses in pulleys and cables, which reduce efficiency.]
-
-<!-- DIAGRAM REMINDER:
-    Add a pulley diagram showing:
-    - A simple fixed pulley (no mechanical advantage, just direction change).
-    - A two-pulley system where the user effectively lifts only a fraction
-      of the load.
-    - Indicate input force vs output force.
--->
+    <h3 id="Explosivity">Training Explosivity (Rate of Force Development)</h3>
+    <pre class="ex1">
+In physics terms, moving a weight explosively is about producing a large force on the bar in a short time. From Newton’s second law, F = ma, if a lifter can generate a higher peak force with their muscles, the same load can be given a larger acceleration. In practice this shows up as faster bar speed in a squat or bench press and a higher take-off velocity in a vertical jump. Resistance training does not just make muscles bigger; it can also increase the rate of force development through changes in neural drive and motor unit recruitment (Aagaard et al., 2002). This is why explosive exercises such as jumps, Olympic lift variations and fast concentric phases are often included when the goal is to improve power rather than only slow, maximal strength.
     </pre>
 
-    <!-- =================== ANALYSIS & DISCUSSION (COUNTED) =================== -->
+    <!-- =================== ANALYSIS & DISCUSSION (USED FOR WORD COUNT) =================== -->
     <hr>
     <h3 id="Analysis">Analysis and Discussion</h3>
     <pre class="ex1" id="Analysis_InText">
-[Bring ideas together:
-- How CICO provides a useful framework but must be personalised.
-- How biomechanics (moments, limb length) make lifts harder or easier.
-- Why explosive training relates directly to F = ma.
-- How pulley systems change the relationship between external load and
-  internal muscle force.
-You can summarise key comparisons or link back to real lifter experiences.]
+[Bring the ideas from all sections together:
+- CICO shows that energy balance follows the conservation of energy, but real people have different BMR and thermic effects of food, so they respond differently to the same calorie target (Hall et al., 2011; Wang et al., 2010).
+- Biomechanics explains why some lifters find certain movements harder due to lever arms and joint moments (Escamilla, 2001).
+- Rate of force development links strength training and explosivity to basic physics through F = ma (Aagaard et al., 2002).
 
-[This section, together with the other main sections (except Abstract and References),
-is used in your automatic word count for the coursework.]
+You can discuss how using physics-based reasoning helps lifters set more realistic expectations and avoid comparing themselves unfairly to others who may have different body segments or metabolic rates. You might also comment on how this understanding could influence training choices, for example, whether to focus on technique, hypertrophy, or power work.]
+
+[This section is used in your automatic word count for the coursework.]
     </pre>
 
-    <!-- =================== PEER FEEDBACK REFLECTION (COUNTED) =================== -->
+    <!-- =================== PEER FEEDBACK REFLECTION =================== -->
     <hr>
     <h3 id="PeerFeedback">Peer Feedback Reflection</h3>
-    <pre class="ex1" id="PeerFeedback_InText">
+    <pre class="ex1">
 [Reflect on the peer feedback you received:
-- Need more visual demonstration of physics → you are adding diagrams.
-- Need clearer explanation of physics concepts before applying them.
-- Need to explain gym jargon (ROM, PR, hypertrophy, etc.) for non-gym
-  readers.
-Explain how you have addressed or will address these points.]
+- Need more visual demonstration of physics → you are adding diagrams alongside each main physics concept (moments, work done, rate of force development).
+- Need clearer explanation of physics concepts before applying them → your forces and moments section now introduces the basic definitions before they are used in the bench press and explosivity sections.
+- Need to explain gym jargon (ROM, PR, hypertrophy, deload, etc.) for non-gym readers → you can briefly define any gym-specific terms when they first appear.
+
+Explain how you have addressed or will address these points, showing that the feedback has helped improve the clarity and accessibility of your paper.]
     </pre>
 
-    <!-- =================== CONCLUSION (COUNTED) =================== -->
+    <!-- =================== CONCLUSION =================== -->
     <hr>
     <h3 id="Conclusion">Conclusion</h3>
     <pre class="ex1" id="Conclusion_InText">
 [Summarise the main physics insights:
-- Energy balance (CICO) is constrained by conservation of energy, but
-  biological differences mean practical outcomes vary between people.
-- Forces, moments, and limb length explain why some lifters find certain
-  movements harder.
-- F = m a and explosive training show how physics underpins athletic
-  performance.
-- Pulley systems demonstrate mechanical advantage and real-world
-  applications of simple machines in the gym.
-You can also briefly mention limitations and possible extensions.]
+- Energy balance (CICO) is constrained by conservation of energy, but biological differences in BMR and digestion mean that calorie responses vary across people (Hall et al., 2011; Wang et al., 2010).
+- Forces, moments, and limb length explain why some lifters find certain movements harder and why technique and leverages matter (Escamilla, 2001).
+- F = ma and rate of force development show how physics underpins explosive performance and why training can increase both maximum force and how quickly it is produced (Aagaard et al., 2002).
+
+You can also briefly mention limitations (for example, that the paper simplifies some biological details) and possible extensions such as looking at injury mechanics or comparing free weights to machines in more detail.]
     </pre>
 
-    <!-- =================== REFERENCES (NOT COUNTED) =================== -->
+    <!-- =================== REFERENCES =================== -->
     <hr>
     <h3 id="References">References</h3>
-    <pre class="ex1" id="References_InText">
-[Add your properly formatted references here. You can use:
-- Articles/videos on CICO and metabolism
-- Sources on biomechanics of lifting
-- Any academic or reputable sources you use in the text]
+    <pre class="ex1">
+Hall, K.D., Sacks, G., Chandramohan, D., Chow, C.C., Wang, Y.C., Gortmaker, S.L. and Swinburn, B.A. (2011) Quantification of the effect of energy imbalance on bodyweight. *The Lancet*, 378(9793), pp. 826–837. Available at: https://doi.org/10.1016/S0140-6736(11)60812-X
 
-Example of a hyperlink format:
-<a href="https://www.example.com/article">Author (Year) Title of article.</a>
+Wang, Z., Ying, Z., Bosy-Westphal, A., Zhang, J., Schautz, B., Later, W., Heymsfield, S.B. and Müller, M.J. (2010) Re-evaluating the relationship between fat-free mass and resting metabolic rate. *American Journal of Clinical Nutrition*, 91(3), pp. 790–796. Available at: https://doi.org/10.3945/ajcn.2009.28427
+
+Escamilla, R.F. (2001) Biomechanics of strength training exercises. *Medicine & Science in Sports & Exercise*, 33(1), pp. 127–141. Available at: https://doi.org/10.1097/00005768-200101000-00020
+
+Aagaard, P., Simonsen, E.B., Andersen, J.L., Magnusson, P. and Dyhre-Poulsen, P. (2002) Increased rate of force development and neural drive of human skeletal muscle following resistance training. *Journal of Applied Physiology*, 93(4), pp. 1318–1326. Available at: https://doi.org/10.1152/japplphysiol.00283.2002
     </pre>
 
     <!-- =================== WORD COUNT DISPLAY =================== -->
@@ -352,7 +329,7 @@ Example of a hyperlink format:
         }
     </script>
 
-    <!-- ///////////// Word count script (all sections except Abstract & References) ///////////// -->
+    <!-- ///////////// Word count script ///////////// -->
     <script>
         // Count words in a section with a given ID
         function displayWordCount(sectionId) {
@@ -364,27 +341,14 @@ Example of a hyperlink format:
             return wordArray.length;
         }
 
-        // Calculate and display total word count for all main sections except Abstract/References
+        // Calculate and display total word count (Analysis only)
         function displayTotalWordCount() {
-            const sectionIds = [
-                "Introduction_InText",
-                "CICO_InText",
-                "ForcesMoments_InText",
-                "BenchPressPhysics_InText",
-                "Pulleys_InText",
-                "Analysis_InText",
-                "PeerFeedback_InText",
-                "Conclusion_InText"
-            ];
+            const AnalysisCount = displayWordCount("Analysis_InText");
 
-            let totalWordCount = 0;
-            sectionIds.forEach(id => {
-                totalWordCount += displayWordCount(id);
-            });
-
+            const totalWordCount = AnalysisCount;
             const output = document.getElementById("totalWordCount");
             if (output) {
-                output.innerText = `Total word count (all sections except Abstract & References): ${totalWordCount}`;
+                output.innerText = `Total word count (Analysis only): ${totalWordCount}`;
             }
         }
     </script>
